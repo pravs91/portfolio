@@ -4,7 +4,7 @@ body {
 
 hr {
     height: 3px;
-    background-color: gray;
+    background: gray;
     opacity: 0.2;
 }
 
@@ -13,12 +13,12 @@ hr {
     height: 100px;
 }
 
-#name {
+.name {
     color: purple;
     text-align: right;
 }
 
-#role {
+.role {
     color: gray;
     text-align: right;
 }
@@ -29,12 +29,14 @@ hr {
         margin-left: auto;
         margin-right: auto;
     }
-    #name, #role {
+    .name,
+    .role {
         text-align: center;
     }
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     background-color: black;
     opacity: 0.5;
 }
@@ -48,12 +50,12 @@ hr {
     padding-bottom: 30px;
 }
 
-#featured-work {
+.featured-work {
     color: purple;
 }
 
 .thumbnail {
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 .caption {
