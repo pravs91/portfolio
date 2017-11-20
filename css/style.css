@@ -1,0 +1,67 @@
+body {
+    padding-top: 20px;
+}
+
+hr {
+    height: 3px;
+    background-color: gray;
+    opacity: 0.2;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+}
+
+#name {
+    color: purple;
+    text-align: right;
+}
+
+#role {
+    color: gray;
+    text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #name, #role {
+        text-align: center;
+    }
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.carousel-indicators {
+    background-color: black;
+    opacity: 0.3;
+}
+
+.carousel-holder {
+    padding-bottom: 30px;
+}
+
+#featured-work {
+    color: purple;
+}
+
+.thumbnail {
+    padding-bottom: 5px;
+}
+
+.caption {
+    color: purple;
+    opacity: 0.6;
+}
+
+.project-item {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
